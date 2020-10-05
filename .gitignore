@@ -1,2 +1,2 @@
 # we want to ignore some rather large raw data files, so we'll make a special directory just for them.
-00_no_git/*
+00_gitignore/*
