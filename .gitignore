@@ -5,3 +5,6 @@
 
 # cleaned data files
 00_Data/cleaned_data/*
+
+# data inspection files
+00_Data/inspection_files/*
