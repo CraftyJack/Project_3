@@ -1,0 +1,52 @@
+,state_name,score_prediction,site_score,count
+0,Alabama,44.09,45.46,12
+1,Alaska,45.39,47.97,6
+2,Arizona,43.27,43.5,9
+3,Arkansas,45.62,41.3,10
+4,California,42.62,40.02,98
+5,Colorado,42.71,45.44,20
+6,Connecticut,41.51,36.46,17
+7,Delaware,40.73,36.71,13
+8,District of Columbia,43.57,48.57,1
+9,Florida,43.17,44.72,56
+10,Georgia,41.18,41.39,16
+11,Hawaii,53.19,56.94,3
+12,Idaho,44.52,54.82,6
+13,Illinois,42.5,40.76,44
+14,Indiana,41.42,41.06,39
+15,Iowa,40.73,42.79,12
+16,Kansas,44.71,44.73,12
+17,Kentucky,42.52,40.05,14
+18,Louisiana,42.98,44.19,12
+19,Maine,43.3,45.31,13
+20,Maryland,44.19,45.34,19
+21,Massachusetts,41.62,47.64,32
+22,Michigan,41.6,39.69,65
+23,Minnesota,40.27,41.02,25
+24,Mississippi,43.05,46.47,8
+25,Missouri,43.8,46.45,33
+26,Montana,44.94,47.02,17
+27,Nebraska,42.6,46.02,16
+28,Nevada,45.5,39.07,1
+29,New Hampshire,44.26,42.46,20
+30,New Jersey,43.69,44.58,115
+31,New Mexico,41.59,42.94,16
+32,New York,43.68,40.9,85
+33,North Carolina,42.74,43.7,39
+34,Ohio,42.8,43.23,38
+35,Oklahoma,46.65,46.68,7
+36,Oregon,44.58,46.01,13
+37,Pennsylvania,41.91,42.31,97
+38,Puerto Rico Commonwealth,42.42,42.93,13
+39,Rhode Island,41.64,41.22,12
+40,South Carolina,40.73,41.76,25
+41,South Dakota,43.35,41.81,2
+42,Tennessee,43.49,43.66,18
+43,Texas,45.35,45.05,53
+44,Utah,46.47,47.92,15
+45,Vermont,42.93,44.79,12
+46,Virginia,45.19,43.92,31
+47,Washington,44.7,44.68,51
+48,West Virginia,45.13,42.96,10
+49,Wisconsin,42.7,38.86,37
+50,Wyoming,46.19,35.66,2

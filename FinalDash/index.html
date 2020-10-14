@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ML Analysis</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+        integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+        crossorigin=""/>
+        <!-- Marker Cluster CSS -->
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+        <!--D3 cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+        <!-- Our CSS -->
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="jumbotron text-center" style="background-color: lightskyblue">
+                              <h1 class="display-4">Machine Learning Analysis of Superfund Sites in the USA</h1>
+                              <p class="lead">In this website, we encapsulate and visualize the given data on superfund sites, as well as our predictions.  Specifically, we predicted the probability of superfund sites being present, and the score of each site.  We compare this to the reality found in the data. Please feel free to click on and select different attributes, and explore both the original data, and our findings.</p>
+                              <hr class="my-4">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-top: 50px; margin-bottom: 50px; text-align: center;">
+                <div class="row">
+                  <div id="map"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+          <br>
+            <hr>
+            <h1 style="text-align: center;">State Level Analysis</h1>
+            <hr>
+            <br>
+            <div class="container" style="margin-top: 50px; margin-bottom: 50px; text-align: center;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well">
+                            <h5>State:</h5>
+                            <select id="dropdown" onchange="optionChanged(this.value)"></select>
+                          </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" style="margin-top: -20px;">
+                      <div id='guage'></div>
+                    </div>
+                    <div class="col-md-6" style="margin-top: -20px;">
+                      <div id='guage1'></div>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="gauge2" style="margin-left: 300px; margin-right: auto; margin-top: -100px; padding: -100px; border: -100px;"></div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+    <!-- Marker Cluster JS -->
+    <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="Logic/config.js"></script>
+    <!-- Our JS -->
+    <script type="text/javascript" src="Logic/RandomForest.js"></script>
+    <script type="text/javascript" src="Logic/LinearRegressionStateLevel.js"></script>
+
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</html>

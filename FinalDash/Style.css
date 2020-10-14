@@ -1,0 +1,13 @@
+.navbar-brand {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#map {
+    height: 500px;
+}
+
+#stateMap {
+    height: 300px;
+    width: 300px;
+}
