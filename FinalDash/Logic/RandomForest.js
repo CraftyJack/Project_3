@@ -1,4 +1,4 @@
-var geoData = "Data/superfund_data.csv"
+var geoData = "FinalDash/Data/superfund_data.csv"
 //console.log(geoData.length)
 
 var myMap = L.map("map", {

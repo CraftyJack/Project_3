@@ -1,4 +1,4 @@
-data = 'Data/stateChart.csv'
+data = 'FinalDash/Data/stateChart.csv'
 function init() {
     d3.csv(data, function(states){
         var stateName = states.map(states => states.state_name)
