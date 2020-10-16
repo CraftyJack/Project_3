@@ -254,3 +254,36 @@ site_model_features = [
 'pct_mailback_count_cen_2010'
 ]
 
+site_model_features = [ 
+'land_area',
+'mlt_u2_9_strc_acs_09_13',
+'med_house_value_bg_acs_09_13',
+'med_house_value_tr_acs_09_13',
+'mail_return_rate_cen_2010',
+'pct_rural_pop_cen_2010',
+'pct_males_cen_2010',
+'pct_males_acs_09_13',
+'pct_females_cen_2010',
+'pct_females_acs_09_13',
+'pct_pop_18_24_cen_2010',
+'pct_pop_18_24_acs_09_13',
+'pct_pop_25_44_acs_09_13',
+'pct_pop_45_64_acs_09_13',
+'pct_pop_65plus_cen_2010',
+'pct_pop_65plus_acs_09_13',
+'pct_hispanic_cen_2010',
+'pct_nh_white_alone_cen_2010',
+'pct_nh_white_alone_acs_09_13',
+'pct_nh_blk_alone_cen_2010',
+'pct_nh_asian_alone_cen_2010',
+'pct_pop_25yrs_over_acs_09_13',
+'pct_not_hs_grad_acs_09_13',
+'pct_college_acs_09_13',
+'pct_one_health_ins_acs_09_13',
+'pct_owner_occp_hu_acs_09_13',
+'pct_single_unit_acs_09_13',
+'pct_mlt_u2_9_strc_acs_09_13',
+'pct_census_uaa_cen_2010',
+'pct_mailback_count_cen_2010'
+]
+
